@@ -1,16 +1,50 @@
-# React + Vite
+# 🌄 React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Image Gallery App** built with **React.js**, **Axios**, and the free **Pixabay API**.  
+Users can search for images (e.g., animals, nature, sky, etc.) and view them in a responsive gallery layout.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔍 Search images by keyword  
+- 📷 Fetch images dynamically from Pixabay API  
+- ⚡ Responsive grid layout with Tailwind CSS  
+- ⏳ Loading state + "No results" message  
+- 🌐 Click images to view full-size versions  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React.js** (Frontend)  
+- **Axios** (API requests)  
+- **Pixabay API** (Free stock photos)  
+- **Tailwind CSS** (Styling)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+react-image-gallery/
+│── public/ # Static files
+│ ├── index.html
+│ └── favicon.ico
+│
+│── src/ # Main source code
+│ ├── components/ # Reusable components
+│ │ ├── Gallery.jsx # Image gallery grid
+│ │ └── SearchBar.jsx # Search input field
+│ │
+│ ├── App.jsx # Root component
+│ ├── index.js # React entry point
+│ └── styles.css # Global styles (Tailwind)
+│
+│── .gitignore # Git ignore file
+│── package.json # Project metadata & dependencies
+│── tailwind.config.js # Tailwind configuration
+│── README.md # Project documentation
+
+
+## 🔑 Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-image-gallery.git
+   cd react-image-gallery
