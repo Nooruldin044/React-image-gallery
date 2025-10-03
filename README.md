@@ -22,26 +22,6 @@ Users can search for images (e.g., animals, nature, sky, etc.) and view them in 
 
 ---
 
-## 📂 Project Structure
-react-image-gallery/
-│── public/ # Static files
-│ ├── index.html
-│ └── favicon.ico
-│
-│── src/ # Main source code
-│ ├── components/ # Reusable components
-│ │ ├── Gallery.jsx # Image gallery grid
-│ │ └── SearchBar.jsx # Search input field
-│ │
-│ ├── App.jsx # Root component
-│ ├── index.js # React entry point
-│ └── styles.css # Global styles (Tailwind)
-│
-│── .gitignore # Git ignore file
-│── package.json # Project metadata & dependencies
-│── tailwind.config.js # Tailwind configuration
-│── README.md # Project documentation
-
 
 ## 🔑 Setup & Installation
 1. Clone the repository:
